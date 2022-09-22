@@ -1,0 +1,16 @@
+:root{
+    --primary_color : #119100;
+}
+
+.border-top {
+    border-top: 1px solid black !important;
+}
+
+.footer-icon{
+    font-size: 24px;
+}
+
+.footer-icon:hover{
+    /* transition: 3000; */
+    color: var(--primary_color);
+}

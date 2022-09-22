@@ -1,0 +1,56 @@
+.bg-color {
+    background-color: #e4e4e7;
+}
+
+.table-bg-colour{
+    color: #69BA5E;
+}
+.scroll-container {
+    overflow: hidden;
+}
+.scroll-text {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  
+    -moz-animation: my-animation 5s linear infinite;
+    -webkit-animation: my-animation 5s linear infinite;
+    animation: my-animation 5s linear infinite;
+}
+.scroll-text:hover {
+    animation-play-state: paused;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index: 0;
+}
+
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+}
+  
+@keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+}
+
+@media (max-width: 630px){
+    .nav-hide{
+        display: none;
+    }
+}
+
+/* Custom Table css */
+
+.table > tbody > tr:last-child{
+    border-color: white !important;
+}

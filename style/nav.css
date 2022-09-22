@@ -1,0 +1,135 @@
+:root{
+    --primary_color : #119100;
+    --top_nav_text : white;
+}
+
+.top-nav-text:hover {
+    color: var(--primary_color);
+    text-decoration: underline;
+}
+
+.navbar{
+    background-color: #F8F9FA;
+}
+
+.dropend > .dropdown-toggle::after{
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+}
+
+.offcanvas-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* background: #d3fce4; */
+}
+
+.offcanvas-nav li {
+    display: block;
+    position: relative;
+    /* float: left; */
+    /* background: #d3fce4; */
+}
+
+.offcanvas-body li ul li {
+    border-top: 0;
+}
+
+.offcanvas-nav li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #000;
+}
+
+.offcanvas-body li ul {
+    padding: 0;
+    border: none;
+}
+
+.offcanvas-nav li a:hover {
+    background: #69BA5E;
+}
+
+@media (max-width: 1200px){
+    .dropdown-menu{
+        text-align: center;
+        /* width: fit-content; */
+    }
+
+    .dropend > .dropdown-toggle::after{
+        margin-left: 0.25em;
+        vertical-align: 0.25em;
+        right: auto;
+        top: 0.9rem;
+        border-top: 0.3em solid;
+        border-right: 0.3em solid transparent;
+        border-bottom: 0;
+        border-left: 0.3em solid transparent;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-item > .dropdown-menu{
+        display: none;
+    }
+    
+    .nav-item:hover > .dropdown-menu{
+        display: block;
+    }
+    
+    .dropend > .dropdown-menu{
+        display: none;
+    }
+    
+    .dropend:hover > .dropdown-menu{
+        display: block;
+        margin-left: 0rem;
+    }
+
+    .drop-down{
+        position: relative;
+    }
+    .drop-down .sub-menu{
+        position: absolute;
+        left: 100%;
+        top: 0;
+    }
+}
+
+
+/* Stuff Alston added */
+
+/* 
+li:hover > ul {
+    display: block;
+    position: absolute;
+}
+li:hover li { 
+    float: none; 
+}
+li:hover a { 
+    background: #d3fce4; 
+}
+li:hover li a:hover { 
+    background: #2c3e50; 
+}
+.main-navigation li ul li { 
+    border-top: 0; 
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul:before,
+ul:after {
+    content: " "; 
+    display: table;
+}
+ul:after { 
+    clear: both; 
+} */
