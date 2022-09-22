@@ -43,9 +43,9 @@ nav.innerHTML = `<div class="container-fluid">
 
     <header class="sticky-top bgcol_pri" style="z-index: 10">
       <nav
-        class="navbar navbar-expand-xl bg-light container-fluid justify-content-between"
+        class="navbar navbar-expand-xl container-fluid justify-content-between"
       >
-        <span class="navbar-brand mb-0 h1 ms-3">IT DBIT</span>
+        <span class="navbar-brand mb-0 h1 ms-3">COMPS DBIT</span>
         <button
           class="navbar-toggler me-2"
           type="button"
@@ -72,7 +72,7 @@ nav.innerHTML = `<div class="container-fluid">
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
-                <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+                <a class="nav-link" aria-current="page" href="/index.html">HOME</a>
               </li>
               <li class="nav-item text-center">
                 <a class="nav-link" href="/aboutus/aboutus.html">ABOUT US</a>

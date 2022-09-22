@@ -1,5 +1,5 @@
 :root{
-    --primary_color : #119100;
+    --primary_color : #020202;
     --top_nav_text : white;
 }
 
@@ -50,7 +50,9 @@
 }
 
 .offcanvas-nav li a:hover {
-    background: #69BA5E;
+    background: #020202;
+    color:#fff;
+    border-radius:2px;
 }
 
 @media (max-width: 1200px){
