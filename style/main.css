@@ -1,56 +1,83 @@
 .bg-color {
-    background-color: #e4e4e7;
+  background-color: #e4e4e7;
 }
 
-.table-bg-colour{
-    color: #69BA5E;
+.table-bg-colour {
+  color: #69ba5e;
 }
 .scroll-container {
-    overflow: hidden;
+  overflow: hidden;
 }
 .scroll-text {
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-  
-    -moz-animation: my-animation 5s linear infinite;
-    -webkit-animation: my-animation 5s linear infinite;
-    animation: my-animation 5s linear infinite;
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 5s linear infinite;
 }
 .scroll-text:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
-.carousel-control-prev, .carousel-control-next {
-    z-index: 0;
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 0;
 }
 
 @-webkit-keyframes my-animation {
-    from { -webkit-transform: translateY(100%); }
-    to { -webkit-transform: translateY(-100%); }
-}
-  
-@keyframes my-animation {
-    from {
-      -moz-transform: translateY(100%);
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%);
-    }
-    to {
-      -moz-transform: translateY(-100%);
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-100%);
-    }
+  from {
+    -webkit-transform: translateY(100%);
+  }
+  to {
+    -webkit-transform: translateY(-100%);
+  }
 }
 
-@media (max-width: 630px){
-    .nav-hide{
-        display: none;
-    }
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+@media (max-width: 630px) {
+  .nav-hide {
+    display: none;
+  }
 }
 
 /* Custom Table css */
 
+<<<<<<< HEAD
+.table > tbody > tr:last-child {
+  border-color: white !important;
+}
+.selectItem {
+  margin: 10px;
+  list-style: none;
+  color: black;
+  align-items: center;
+}
+.selectLink {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+#newsletter_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+=======
 .table > tbody > tr:last-child{
     border-color: white !important;
 }
@@ -80,3 +107,4 @@
         flex-wrap: wrap;
     }
 }
+>>>>>>> fc794d28b1bde83eadf382c4003d552f6a7dac58
