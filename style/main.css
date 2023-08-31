@@ -56,7 +56,6 @@
 
 /* Custom Table css */
 
-<<<<<<< HEAD
 .table > tbody > tr:last-child {
   border-color: white !important;
 }
@@ -77,34 +76,3 @@
   justify-content: center;
   width: 100%;
 }
-=======
-.table > tbody > tr:last-child{
-    border-color: white !important;
-}
-
-.news-links{
-    color: black;
-    text-decoration: none;
-    margin: 10px;
-}
-
-.news-links:hover{
-    color: blue;
-}
-
-.news-link-grp{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-height: 400px;
-}
-
-@media (max-width:500px){
-    .container-fluid{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-}
->>>>>>> fc794d28b1bde83eadf382c4003d552f6a7dac58
