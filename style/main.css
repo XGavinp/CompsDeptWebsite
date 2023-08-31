@@ -2,8 +2,8 @@
   background-color: #e4e4e7;
 }
 
-.table-bg-colour {
-  color: #69ba5e;
+.table-bg-colour{
+  color: #69BA5E;
 }
 .scroll-container {
   overflow: hidden;
@@ -21,18 +21,13 @@
   animation-play-state: paused;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.carousel-control-prev, .carousel-control-next {
   z-index: 0;
 }
 
 @-webkit-keyframes my-animation {
-  from {
-    -webkit-transform: translateY(100%);
-  }
-  to {
-    -webkit-transform: translateY(-100%);
-  }
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
 }
 
 @keyframes my-animation {
@@ -48,31 +43,40 @@
   }
 }
 
-@media (max-width: 630px) {
-  .nav-hide {
-    display: none;
+@media (max-width: 630px){
+  .nav-hide{
+      display: none;
   }
 }
 
 /* Custom Table css */
 
-.table > tbody > tr:last-child {
+.table > tbody > tr:last-child{
   border-color: white !important;
 }
-.selectItem {
-  margin: 10px;
-  list-style: none;
-  color: black;
-  align-items: center;
-}
-.selectLink {
+
+.news-links{
   color: black;
   text-decoration: none;
-  font-weight: 500;
+  margin: 10px;
 }
-#newsletter_list {
+
+.news-links:hover{
+  color: blue;
+}
+
+.news-link-grp{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  max-height: 400px;
+}
+
+@media (max-width:500px){
+  .container-fluid{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
 }
