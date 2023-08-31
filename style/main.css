@@ -85,7 +85,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  max-height: 400px;
+  height: 310px;
 }
 
 @media (max-width: 500px) {
@@ -94,4 +94,20 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
+}
+
+
+.news-events{
+    height: 200px;
+}
+
+
+#hod-container{
+    height: 1100px;
+}
+
+@media (max-width:1000px){
+    #hod-container{
+        height: auto;
+    }
 }
