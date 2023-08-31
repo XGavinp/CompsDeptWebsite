@@ -59,6 +59,7 @@
 .table > tbody > tr:last-child {
   border-color: white !important;
 }
+
 .selectItem {
   margin: 10px;
   list-style: none;
