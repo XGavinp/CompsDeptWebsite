@@ -90,7 +90,6 @@ nav.innerHTML = `<div class="container-fluid">
                     <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
                   <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
-                  <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/academic_syllabus.html">Syllabus</a></li>
                 </ul>
               </li>
