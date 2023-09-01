@@ -92,6 +92,7 @@ nav.innerHTML = `<div class="container-fluid">
                   <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/academic_syllabus.html">Syllabus</a></li>
                   <li><a class="dropdown-item" href="/academics/rankholders.html">Rank Holders</a></li>
+                  <li><a class="dropdown-item" href="/academics/Co-operator_Adivsory.html">Co-operate Advisory Board</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -186,6 +187,8 @@ nav.innerHTML = `<div class="container-fluid">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/events.html">Events</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/guestsession.html">Guest Session</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/Insustrial_visit.html">Industrial Visit</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
