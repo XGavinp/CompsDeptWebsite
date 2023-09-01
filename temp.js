@@ -140,7 +140,7 @@ nav.innerHTML = `<div class="container-fluid">
                     <a class="dropdown-item" href="/students/undergraduate-project.html">Second Year Projects</a>
                   </li>
                   <li><a class="dropdown-item" href="/students/recognition.html">Third Year Projects</a></li>
-                  <li><a class="dropdown-item" href="/students/recognition.html">Fourth Year Projects</a></li>
+                  <li><a class="dropdown-item" href="/students/fourthyear.html">Fourth Year Projects</a></li>
                 </ul>
               </li>
             
