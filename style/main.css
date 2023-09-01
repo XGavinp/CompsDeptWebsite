@@ -13,9 +13,9 @@
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
 
-  -moz-animation: my-animation 5s linear infinite;
-  -webkit-animation: my-animation 5s linear infinite;
-  animation: my-animation 5s linear infinite;
+  -moz-animation: my-animation 10s linear infinite;
+  -webkit-animation: my-animation 10s linear infinite;
+  animation: my-animation 10s linear infinite;
 }
 .scroll-text:hover {
   animation-play-state: paused;
