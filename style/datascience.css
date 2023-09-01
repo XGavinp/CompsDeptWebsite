@@ -128,17 +128,3 @@ body{
    font-size: 40px;
    color: black;
 }
-
-.link{
-    font-size: 30px;
-    color: white;
-    background-color: yellow;
-    padding: 20px;
-    border-radius: 30px;
-    border: 2px solid black;
-    width: 50px;
-}
-
-.link:hover{
-    background-color: green;
-}

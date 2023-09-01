@@ -151,6 +151,32 @@
     }
 }
 
+/* Style for the flashing icon container */
+.flash-wrapper {
+    display: inline-block; /* Adjust this as needed for your layout */
+    position: relative;
+  }
+  
+  /* Style for the flashing icon */
+  .flash-news {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: flash 1s infinite alternate;
+  }
+  
+  /* Define the blinking animation */
+  @keyframes flash {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
 /* Stuff Alston added */
 
 /* 
