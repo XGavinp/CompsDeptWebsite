@@ -110,6 +110,8 @@ nav.innerHTML = `<div class="container-fluid">
                     <a class="dropdown-item" href="/faculty/faculty_profile.html">Profile</a>
                   </li>
                   <li><a class="dropdown-item" href="/faculty/faculty_recognition.html">Recognition</a></li>
+                  </li>
+                  <li><a class="dropdown-item" href="/faculty/faculty_reasearch.html">Research</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
