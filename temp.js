@@ -193,9 +193,16 @@ nav.innerHTML = `<div class="container-fluid">
                 <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/events.html">Events</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/alumni.html">Alumni Interactions</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/acm.html">ACM Student Chapter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/guestsession.html">Guest Session</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/Industrial_visit.html">Industrial Visit</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/Industrial_visit.html">Industrial Visit</a>
+                <li><a class="dropdown-item" href="/cocurricular/major_projects.html">Major Projects</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/certification.html">Certification/ Workshop/ Outreach Program</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/department_day.html">Department Day</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/programming.html">Programming Contest</a></li>
+                </li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
