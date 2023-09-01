@@ -45,8 +45,7 @@ nav.innerHTML = `<div class="container-fluid">
       <nav
         class="navbar navbar-expand-xl container-fluid justify-content-between"
       >
-        <span class="navbar-brand mb-0 h1 ms-3">COMPS DBIT</span>
-        <button
+          <button
           class="navbar-toggler me-2"
           type="button"
           data-bs-toggle="offcanvas"
@@ -70,7 +69,7 @@ nav.innerHTML = `<div class="container-fluid">
             ></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 offcanvas-nav">
+            <ul class="navbar-nav  flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
                 <a class="nav-link" aria-current="page" href="/index.html">HOME</a>
               </li>
@@ -202,7 +201,7 @@ nav.innerHTML = `<div class="container-fluid">
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Testominals
+                TESTIMONIALS
               </a>
               <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="">Parents</a></li>
