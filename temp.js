@@ -139,9 +139,9 @@ nav.innerHTML = `<div class="container-fluid">
                 <ul class="dropdown-menu-undergraduate" aria-labelledby="navbarDropdown" style="left:206px; top:0%;">
                   <li>
                     
-                    <a class="dropdown-item" href="/students/undergraduate-project.html">Second Year Projects</a>
+                    <a class="dropdown-item" href="/students/secondyear.html">Second Year Projects</a>
                   </li>
-                  <li><a class="dropdown-item" href="/students/recognition.html">Third Year Projects</a></li>
+                  <li><a class="dropdown-item" href="/students/thirdyear.html">Third Year Projects</a></li>
                   <li><a class="dropdown-item" href="/students/fourthyear.html">Fourth Year Projects</a></li>
                 </ul>
               </li>
