@@ -76,6 +76,9 @@ nav.innerHTML = `<div class="container-fluid">
               <li class="nav-item text-center">
                 <a class="nav-link" href="/aboutus/aboutus.html">ABOUT US</a>
               </li>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="/assets/pdf/Honours-Minor Degree Program- DS.pdf">DATA SCIENCE</a>
+              </li>
               <li class="nav-item dropdown text-center">
                 <a
                   class="nav-link dropdown-toggle"
