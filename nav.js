@@ -70,3 +70,5 @@
         // }
     }
     $(window).resize(expandCollapse); // calls the function when the window first loads
+
+    
