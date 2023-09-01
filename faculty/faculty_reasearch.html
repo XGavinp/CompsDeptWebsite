@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
+    <link rel="stylesheet" href="/style/nav.css" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>DBIT IT</title>
+    <script src="/temp.js" defer></script>
+  </head>
+  <body class="bg-color">
+    <div id="navbar"></div>
+    <main class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="row my-3 mx-4 py-3 bg-light">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide justify-content-center"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="../assets/slideshow/pic1.jpg"
+                  class="d-block w-100"
+                  style="object-fit: cover; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                src="../assets/slideshow/pic2.jpg"
+                  class="d-block w-100"
+                  style="object-fit: cover; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                src="../assets/slideshow/pic3.jpg"
+                  class="d-block w-100"
+                  style="object-fit: cover; height: 400px"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden"></span>
+            </button>
+          </div>
+        </div>
+        <div class="row col-lg-10 p-3 m-">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Awards
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sr No.</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Award</th>
+                        <th scope="col">Organization</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Dr. Amiya Kumar Tripathy</td>
+                        <td>Dr. APJ Abdul Kalam National Award In The Field Of Teaching & Research</td>
+                        <td>International Institute for Social and Economic Reforms (IISER), Bangalore</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingtwo">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  Nominations
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sr No.</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Award</th>
+                        <th scope="col">Organization</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Dr. Amiya Kumar Tripathy</td>
+                        <td>Secretary</td>
+                        <td>IRashtriya Uchchatar Shiksha
+                          Abhiyan (RUSA) Govt. Of Maharashtra for Geo-Informatics and Spatial Computing</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                >
+                Paper Presentation
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sr no.</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Techincal Paper</th>
+                        <th scope="col">Conference</th>
+                        <th scope="col">Date</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Ms. Kalpita Wagaskar</td>
+                          <td>Study of Psychological Test Sampling and its impact on Students Career Choice Alternative</td>
+                          <td>IEEE International Conference on Intelligent Computing and Control (I2C2) Coimbatore,Tamil Nadu.</td>
+
+                        <td>23<sup>rd</sup>-24<sup>th</sup> June 2017</td>
+                      </tr>
+                      <tr>
+                        <td>2.</td>
+                        <td>Ms. Kalpita Wagaskar</td>
+                        <td>Endorse Your Brand: Self Development Tool for Agile Employment</td>
+                        <td>2<sup>nd</sup> IEEE International Conference on
+                          "Communication System, Computing and IT Applications 2017" (CSCITA 2017), Mumbai, India</td>
+                          <td>8<sup>th</sup> April 2017</td>
+                      </tr>
+                      <tr>
+                        <td>3.</td>
+                        <td>Ms. Mayura Gavhane</td>
+                        <td>Life span monitoring of buildings using data analytics</td>
+                        <td>3<sup>rd</sup> International conference on computing, communication and automation</td>
+                        <td>17<sup>th</sup> August 2017</td>
+                      </tr>
+                      <tr>
+                        <td>4.</td>
+                        <td>Ms. Sejal Chopra</td>
+                        <td>Computer assist for paralysed using electroencephalogram
+                          " and "Fire detection using pattern matching and rasberry pi</td>
+                          <td>3<sup>rd</sup> International conference
+                            on computing, communication and automation</td>
+                            <td>17<sup>th</sup> August 2017</td>
+                      </tr>
+                      <tr>
+                        <td>5.</td>
+                        <td>Ms. Sejal Chopra</td>
+                        <td>Brain Computer Interface and Electro stimulation of Muscles to assist paralyzed patients in limited movement of hands</td>
+                        <td>2<sup>nd</sup> Biennial International Conference on Nascent Technologies in Engineering</td> 
+                        <td>27<sup>th</sup>-28<sup>th</sup> January 2017</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="true"
+                  aria-controls="collapseFour"
+                >
+                Interships and Fellowships
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sr no.</th>
+                        <th scope="col">Name of the Faculty</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">From</th>
+                         <th scope="col">End</th>
+                        <th scope="col">Company/ Organization Name</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Ms. Sejal Chopra</td>
+                        <td>17 days</td>
+                        <td>2<sup>nd</sup> Dec '19 </td>
+                        <td>18<sup>th</sup> Dec '19</td>
+                          <td>Eloquent Techart India Pvt Ltd</td>
+                      </tr>
+                      <tr>
+                        <td>2.</td>
+                        <td>Dr. Shaikh Phiroj</td>
+                        <td>15 days</td>
+                        <td>18<sup>th</sup> Nov '19</td>
+                        <td>2<sup>nd</sup> Dec '19</td>
+                          <td>Fireblaze Technologies Private Limited</td>
+                      </tr>
+                      <tr>
+                        <td>3.</td>
+                        <td>Ms. Shainila Mulla</td>
+                        <td>01 Month</td>
+                        <td>17<sup>th</sup> Nov '19</td>
+                        <td>17<sup>th</sup> Dec '19</td>
+                        <td>CollabAce</td>
+                      </tr>
+                      <tr>
+                        <td>4.</td>
+                        <td>Ms. Sana Shaikh</td>
+                        <td>15 days</td>
+                        <td>2<sup>nd</sup> Dec '19</td> 
+                        <td>18<sup>th</sup> Dec '19</td>
+                        <td>Noval India</td>
+                      </tr>
+                      <tr>
+                        <td>5.</td>
+                        <td>Ms. Kalpita Wagaskar</td>
+                        <td>25 days</td>
+                        <td>18<sup>th</sup> Nov '19</td> 
+                        <td>16<sup>th</sup> Dec '19</td>
+                        <td>DBIT</td>
+                      </tr>
+                      <tr>
+                        <td>6.</td>
+                        <td>Ms. Mayura Gavhane</td>
+                        <td>15 days</td>
+                        <td>3<sup>rd</sup> Dec '19</td> 
+                        <td>17<sup>th</sup> Dec '19</td>
+                        <td>Ainsight Technologies</td>
+                      </tr>
+                      <tr>
+                        <td>7.</td>
+                        <td>Ms. Dipti Jadhav</td>
+                        <td>15 Days</td>
+                        <td>18<sup>th</sup> Nov '19</td> 
+                        <td>2<sup>th</sup> Dec '19</td>
+                        <td>Ekalavya Education & Research foundation</td>
+                      </tr>
+                      <tr>
+                        <td>8.</td>
+                        <td>Ms. Priya Kaul</td>
+                        <td>6 months</td>
+                        <td>2<sup>nd</sup> Jan '20</td> 
+                        <td>2<sup>nd</sup> June '20</td>
+                        <td>SequelString Pvt. Ltd.</td>
+                      </tr>
+                      <tr>
+                        <td>9.</td>
+                        <td>Dr. Amiya Tripathy</td>
+                        <td>1 year</td>
+                        <td>1<sup>st</sup> Jan '17</td> 
+                        <td>31<sup>st</sup> Dec '17</td>
+                        <td>R M University of Technology, Tawan-Ok, Bangkok Thailand</td>
+                      </tr>
+                      <tr>
+                        <td>10.</td>
+                        <td>Ms. Sana Shaikh</td>
+                        <td>11 days</td>
+                        <td>15<sup>th</sup> May '17</td> 
+                        <td>26<sup>th</sup> May '17</td>
+                        <td>Pristine Info Solution</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="true"
+                  aria-controls="collapseFive"
+                >
+                Syllabus setting committee members for Mumbai University curriculum
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sr No.</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Subject</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Ms. Sana Shaikh</td>
+                        <td>Database Management System<br>
+                          Big Data Analytics<br>
+                          Web Technologies<br>
+                          Datawarehouse and Mining</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>2.</td>
+                        <td>Ms. Kalpita Ajinkya Wagaskar</td>
+                        <td>Advanced Database Management System<br>
+                          Mobile Communication Computing and Multimedia Systems.</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>3.</td>
+                        <td>Ms. Dipti Jadhav</td>
+                        <td>Computer Graphics</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>4.</td>
+                        <td>Ms. Mayura gavhane</td>
+                        <td>System Programming<br>
+                          Compiler Construction</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>5.</td>
+                        <td>Ms. Priya Kaul</td>
+                        <td>Database Management System<br>
+                          Big Data Analytics<br>
+                          Datawarehouse and Mining</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>6.</td>
+                        <td>Ms. Sejal Chopra</td>
+                        <td>Microprocessor<br>
+                          Digital Signal Processing</td>
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <div class="container pt-5 moving-bottom">
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <div class="col-md d-flex align-items-center">
+        <span class="text-muted"
+          >&copy; Don Bosco Institute Of Technology Designed & Maintained by
+          Website team</span
+        >
+      </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><i class="bi bi-facebook footer-icon"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><i class="bi bi-youtube footer-icon"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><i class="bi bi-instagram footer-icon"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+   
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="nav.js"></script>
+  </body>
+</html>
