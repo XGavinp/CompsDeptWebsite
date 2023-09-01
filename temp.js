@@ -230,8 +230,8 @@ nav.innerHTML = `<div class="container-fluid">
                 TESTIMONIALS
               </a>
               <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="">Parents</a></li>
-              <li><a class="dropdown-item" href="">Students</a></li>
+              <li><a class="dropdown-item" href="/Testimonials/parents.html">Parents</a></li>
+              <li><a class="dropdown-item" href="/Testimonials/students.html">Students</a></li>
               </ul>
             </li>
             </ul>
