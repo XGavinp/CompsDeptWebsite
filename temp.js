@@ -70,7 +70,7 @@ nav.innerHTML = `<div class="container-fluid">
             ></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 offcanvas-nav">
+            <ul class="navbar-nav flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
                 <a class="nav-link" aria-current="page" href="/index.html">HOME</a>
               </li>
@@ -91,7 +91,6 @@ nav.innerHTML = `<div class="container-fluid">
                     <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
                   <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
-                  <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/academic_syllabus.html">Syllabus</a></li>
                 </ul>
               </li>
