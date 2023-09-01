@@ -128,6 +128,12 @@ nav.innerHTML = `<div class="container-fluid">
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <a class="dropdown-item" href="/students/undergraduate-project.html">Under Graduate Projects</a>
+                    <a class="dropdown-item" href="/students\secondyear.html">Second Year Projects</a>
+                    <a class="dropdown-item" href="students\thirdyear.html">Third Year Projects</a>
+                    <a class="dropdown-item" href="students\fourthyear.html">Fourth Year Project</a>
+
+                  <li>
+
                   </li>
                   <li><a class="dropdown-item" href="/students/recognition.html">Recognition</a></li>
                 </ul>
