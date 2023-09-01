@@ -70,7 +70,7 @@ nav.innerHTML = `<div class="container-fluid">
             ></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav flex-grow-1 pe-3 offcanvas-nav">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
                 <a class="nav-link" aria-current="page" href="/index.html">HOME</a>
               </li>
@@ -91,6 +91,7 @@ nav.innerHTML = `<div class="container-fluid">
                     <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
                   <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
+                  <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/academic_syllabus.html">Syllabus</a></li>
                 </ul>
               </li>
@@ -110,8 +111,6 @@ nav.innerHTML = `<div class="container-fluid">
                     <a class="dropdown-item" href="/faculty/faculty_profile.html">Profile</a>
                   </li>
                   <li><a class="dropdown-item" href="/faculty/faculty_recognition.html">Recognition</a></li>
-                  </li>
-                  <li><a class="dropdown-item" href="/faculty/faculty_reasearch.html">Research</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -126,14 +125,27 @@ nav.innerHTML = `<div class="container-fluid">
                   STUDENTS
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="nav-item dropdown text-center">
+                  <a
+                  class="nav-link dropdown-toggle "
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Under Graduate Projects
+                </a>
+                <ul class="dropdown-menu-undergraduate" aria-labelledby="navbarDropdown" style="left:206px; top:0%;">
                   <li>
-                    <a class="dropdown-item" href="/students/undergraduate-project.html">Under Graduate Projects</a>
-                    <a class="dropdown-item" href="/students\secondyear.html">Second Year Projects</a>
-                    <a class="dropdown-item" href="students\thirdyear.html">Third Year Projects</a>
-                    <a class="dropdown-item" href="students\fourthyear.html">Fourth Year Project</a>
-
-                  <li>
-
+                    
+                    <a class="dropdown-item" href="/students/undergraduate-project.html">Second Year Projects</a>
+                  </li>
+                  <li><a class="dropdown-item" href="/students/recognition.html">Third Year Projects</a></li>
+                  <li><a class="dropdown-item" href="/students/recognition.html">Fourth Year Projects</a></li>
+                </ul>
+              </li>
+            
                   </li>
                   <li><a class="dropdown-item" href="/students/recognition.html">Recognition</a></li>
                 </ul>
