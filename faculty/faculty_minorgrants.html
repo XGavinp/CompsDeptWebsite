@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
+    <link rel="stylesheet" href="/style/nav.css" />
+    <title>Faculty Research</title>
+    <script src="/temp.js" defer></script>
+  </head>
+  <body class="bg-color">
+    <div id="navbar"></div>
+    <main class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="row my-3 mx-4 py-3 bg-light">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide justify-content-center"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="../assets/slideshow/pic1.jpg"
+                  class="d-block w-100"
+                  style="object-fit: cover; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                src="../assets/slideshow/pic2.jpg"
+                  class="d-block w-100"
+                  style="object-fit: cover; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                src="../assets/slideshow/pic3.jpg"
+                  class="d-block w-100"
+                  style="object-fit: cover; height: 400px"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden"></span>
+            </button>
+          </div>
+        </div>
+        <div class="row col-lg-20 p-3 m-">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  2021-2022
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sr No.</th>
+                        <th scope="col">Name of Author</th>
+                        <th scope="col">Title of Paper</th>
+                        <th scope="col">Name of Journal</th>
+                        <th scope="col">Year of Publication</th>
+                        <th scope="col">ISSN Number</th>
+                        <th scope="col">Recognition link</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Dr. Amiya Kumar Tripathy</td>
+                        <td>Cryptanalysis of Near Field Communication Based Authentication Protocol for Mobile Payment System. </td>
+                        <td>Wireless Personal Communications</td>
+                        <td>2021</td>
+                        <td></td>
+                        <td><a href="https://doi.org/10.1007/s11277-021-08667-x">View</a></td>
+                      </tr>
+                      <tr>
+                        <td>2.</td>
+                        <td>Dr. Amiya Kumar Tripathy</td>
+                        <td>Predictive Analytics of User Cognitive Styles in Online Shopping </td>
+                        <td>Int. J. of Computational Intelligence Studies</td>
+                        <td>2022</td>
+                        <td>1755-4985</td>
+                        <td><a href="">View</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="row col-lg-20 p-3 m-">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  2020-2021
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Sr No.</th>
+                      <th scope="col">Name of Teacher</th>
+                      <th scope="col">Title of Paper</th>
+                      <th scope="col">Title of the proceedings of the Conference</th>
+                      <th scope="col">Name of the Conference</th>
+                      <th scope="col">National/International</th>
+                      <th scope="col">Year of publication</th>
+                      <th scope="col">ISBN/ISSN number of the proceeding</th>
+                      <th scope="col">Affiliating Institute at the time of publication </th>
+                      <th scope="col">Name of the Publication</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Kalpita Ajinkya Wagaskar </td>
+                      <td>DELGAS : Deep Learning GST Analytics </td>
+                      <td>National Conference on Gender Bias in Technology 2021 on 8th and 9th March 2021 in association with WDC-AURO University, Don Bosco Institute of Technology, Mumbai and IEEE Bombay Section Women in Engineering.</td>
+                      <td>National Conference on Gender Bias in Technology 2021</td>
+                      <td>National  Conference</td>
+                      <td>2021</td>
+                      <td></td>
+                      <td>Don Bosco Institute of Technology, Mumbai</td>
+                      <td>IEEE</td>
+                    </tr>
+                    <tr>
+                      <td>2.</td>
+                      <td>Kalpita Ajinkya Wagaskar </td>
+                      <td>Hybrid Quantum - Classical AI based approach to solve the Traveling 
+                        Tournament Problem </td>
+                      <td>IJCSE 2021</td>
+                      <td>published in International Journal of Computer Sciences and Engineering (IJSE) on 30th June 21, Vol. 9, Issue.6, 83-90, June 2021.
+                    </td>
+                      <td>International Journal</td>
+                      <td>2021</td>
+                      <td><a href="DOI: https://doi.org/10.26438/ijcse/v9i6.8390">View</a></td>
+                      <td>Don Bosco Institute of Technology, Mumbai</td>
+                      <td>IJSE</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Kalpita Ajinkya Wagaskar </td>
+                        <td>Proposed Hybrid Text and Image Compression Parallel Algorithm </td>
+                        <td>ISGC2021</td>
+                        <td>International Symposium on Grids and Clouds 2021, 22-26 March 2021</td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td></td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>Proceedings of Science</td>
+                      </tr>
+                      <tr>
+                        <td>4.</td>
+                        <td>Deepali Kayande </td>
+                        <td>Assessing Industrial Readiness of Students By Leveraging Soft Skill Parameters </td>
+                        <td>INCET 2021</td>
+                        <td>2nd International Conference for Emerging Technology
+                            (HYBRID CONFERENCE)
+                            (INCET), Belgaum, Karnataka India</td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td>Electronic ISBN:978-1-7281-7029-9
+                            CD:978-1-7281-7027-5
+                            DVD ISBN:978-1-7281-7028-2
+                            Print on Demand(PoD) ISBN:978-1-7281-7030-5</td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore</td>
+                      </tr>
+                      <tr>
+                        <td>5.</td>
+                        <td>Deepali Kayande </td>
+                        <td>CareBot : A Mental Health ChatBot </td>
+                        <td>INCET 2021</td>
+                        <td>2nd International Conference for Emerging Technology
+                            (HYBRID CONFERENCE)
+                            (INCET), Belgaum, Karnataka India</td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td>Electronic ISBN:978-1-7281-7029-9
+                            CD:978-1-7281-7027-5
+                            DVD ISBN:978-1-7281-7028-2
+                            Print on Demand(PoD) ISBN:978-1-7281-7030-5</td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore</td>
+                      </tr>
+                      <tr>
+                        <td>6.</td>
+                        <td>Sejal Chopra </td>
+                        <td> A real-time position monitoring system for fall detection and analysis using human
+                            pose estimation</td>
+                        <td>ICNTE-21</td>
+                        <td>4th Biennial International Conference on Nascent Technologies in Engineering Navi ,Mumbai,India </td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td> ISBN Information:INSPEC Accession Number:  20995390 DOI: 10.1109/ICNTE51185.2021.9487724</td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore</td>
+                      </tr>
+                      <tr>
+                        <td>7.</td>
+                        <td>Dipti Jadhav </td>
+                        <td> NAYAN DRISTI :A revolutionary visual aid for the Visually Impaired</td>
+                        <td>ICT4SD</td>
+                        <td>Sixth International Conference on ICT for Sustainable Development (ICT4SD 2021)  </td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td> yet to be published</td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>Springer</td>
+                      </tr>
+                      <tr>
+                        <td>8.</td>
+                        <td>Ditty Varghese </td>
+                        <td> ML-Based Smart Shopping System with Recipe Recommendation</td>
+                        <td>ICCICT </td>
+                        <td>IEEE International Conference on Communication information and Computing Technology (ICCICT), June 25-27, 2021,
+                            Mumbai, India  </td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td> Electronic ISBN:978-1-6654-0430-3
+                            Print on Demand(PoD) ISBN:978-1-6654-4716-4</td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore  </td>
+                      </tr>
+                      <tr>
+                        <td>9.</td>
+                        <td>Priya Kaul </td>
+                        <td>AR Smart Navigation System</td>
+                        <td>INCET 2021 </td>
+                        <td>2nd International Conference for Emerging Technology
+                            (HYBRID CONFERENCE)
+                            (INCET), Belgaum, Karnataka India</td> </td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td></td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore  </td>
+                      </tr>
+                      <tr>
+                        <td>10.</td>
+                        <td>Shaikh Phiroj</td>
+                        <td>T.U.E.S.D.A.Y
+                            (Translation Using machine learning from English
+                            Speech to Devanagari Automated for You)</td>
+                        <td>IJCA</td>
+                        <td>International Journal of Computer Applications (0975 - 8887) Volume 183 - No.9, June 2021</td> </td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td> 0975 - 8887</td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IJCA  </td>
+                      </tr>
+                      <tr>
+                        <td>11.</td>
+                        <td>Shaikh Phiroj</td>
+                        <td>Cerebro Voice - Your Safety Partner</td>
+                        <td>INDISCON 2021</td>
+                        <td>IEEE India Council International Sub-Sections Conference</td> </td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td></td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore </td>
+                      </tr>
+                      <tr>
+                        <td>12.</td>
+                        <td>Shaikh Phiroj</td>
+                        <td>Driver’s Attention and Stress Monitoring.</td>
+                        <td>2021 IEEE ASIAN CONFERENCE ON INNOVATION IN TECHNOLOGY</td>
+                        <td>2021 IEEE ASIAN CONFERENCE ON INNOVATION IN TECHNOLOGY </td>
+                        <td>International Journal</td>
+                        <td>2021</td>
+                        <td></td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore </td>
+                      </tr>
+                      <tr>
+                        <td>13.</td>
+                        <td>Sana Shaikh</td>
+                        <td>Geographical Crime Rate Prediction System</td>
+                        <td>INDISCON 2021</td>
+                        <td>IEEE India Council International Sub-Sections Conference</td> </td>
+                        <td>International Journal</td>
+                        <td>Submitted in May 2021 and Published in August 2021</td>
+                        <td>Electronic ISBN:978-1-6654-3833-9
+                            Print on Demand(PoD) ISBN:978-1-6654-3834-6</td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore </td>
+                      </tr>
+                      <tr>
+                        <td>14.</td>
+                        <td>Sana Shaikh</td>
+                        <td>TradeZilla Using Algorithmic Trading</td>
+                        <td>INDISCON 2021</td>
+                        <td>IEEE India Council International Sub-Sections Conference</td> </td>
+                        <td>International Journal</td>
+                        <td>Submitted in May 2021 and Published in August 2021</td>
+                        <td>Electronic ISBN:978-1-6654-3833-9
+                            Print on Demand(PoD) ISBN:978-1-6654-3834-6</td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore </td>
+                      </tr>
+                      <tr>
+                        <td>15.</td>
+                        <td>Sana Shaikh</td>
+                        <td>Solid Waste Management: Green Index Calculation and Route Optimization</td>
+                        <td>CSCITA</td>
+                        <td> 2020 3rd International Conference on Communication System,Computing and IT Applications (CSCITA)</td>
+                        <td>International Journal</td>
+                        <td>2020</td>
+                        <td>ISBN:978-1-7281-2339-4
+                            Print on Demand(PoD) ISBN:978-1-7281-2340-0</td>
+                        <td>Don Bosco Institute of Technology, Mumbai</td>
+                        <td>IEEE Xplore </td>
+                      </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="row col-lg-20 p-3 m-">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="true"
+                      aria-controls="collapseThree"
+                    >
+                      2019-2020
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Sr No.</th>
+                    <th scope="col">Name of the Principal Investigator/Co-investivator</th>
+                    <th scope="col">Name of the Project/ Endowments, Chairs</th>
+                    <th scope="col">Year of Award</th>
+                    <th scope="col">Amount Sanctioned</th>
+                    <th scope="col">Duration of the project</th>
+                    <th scope="col">Name of the Funding Agency</th>
+                    <th scope="col">Type  (Government/non-Government)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td>Kalpita Ajinkya Wagaskar</td>
+                    <td>QUANTA- Quantum AI solution for the Travelling Tournament Problem</td>
+                    <td>2019-2020</td>
+                    <td>Rs.15000</td>
+                    <td>1 year</td>
+                    <td>Mumbai University</td>
+                    <td>Government</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </main>
+        <div class="container pt-5 moving-bottom">
+          <footer
+            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+          >
+            <div class="col-md d-flex align-items-center">
+              <span class="text-muted"
+                >&copy; Don Bosco Institute Of Technology Designed & Maintained by Computer Department        Website Team</span
+              >
+            </div>
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                  <a class="text-muted" href="#"
+                    ><i class="bi bi-facebook footer-icon"></i
+                  ></a>
+                </li>
+                <li class="ms-3">
+                  <a class="text-muted" href="#"
+                    ><i class="bi bi-youtube footer-icon"></i
+                  ></a>
+                </li>
+                <li class="ms-3">
+                  <a class="text-muted" href="#"
+                    ><i class="bi bi-instagram footer-icon"></i
+                  ></a>
+                </li>
+              </ul>
+            </footer>
+         
+      
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+          ></script>
+          <script src="nav.js"></script>
+        </body>
+      </html>
+           
+    
