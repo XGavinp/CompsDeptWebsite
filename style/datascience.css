@@ -1,12 +1,13 @@
-.card-container{
+.ds-card-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-top: 30px;
 }
 
-.card{
+.ds-card{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     font-family: "Poppins", Helvetica, Arial, sans-serif;
     -webkit-text-size-adjust: none;
@@ -26,7 +27,7 @@
     padding-bottom: 25px;
 }
 
-.card-img{
+.ds-card-img{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     font-family: "Poppins", Helvetica, Arial, sans-serif;
     -webkit-text-size-adjust: none;
@@ -47,7 +48,7 @@
     box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff;
 }
 
-.card-name{
+.ds-card-name{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-text-size-adjust: none;
     text-align: center;
@@ -62,7 +63,7 @@
     margin-top: 25px;
 }
 
-.card-name>a{
+.ds-card-name>a{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-text-size-adjust: none;
     text-align: center;
@@ -79,17 +80,16 @@
     margin-top: 0;
 }
 
-.card-name>a:hover{
+.ds-card-name>a:hover{
     color: blue;
     text-decoration: underline;
 }
 
-.main{
+.ds-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px;  
-
+    flex-wrap: wrap;
 }
 
 .title-container{
@@ -110,21 +110,39 @@ body{
     padding: 0px;
 }
 
-.text{
-    padding: 40px;
-    font-size: 19px;
-    padding-top: 20px;
+.ds-text{
+    color: black;
+    font-size: 20px;
+    margin: 60px;
+    padding: 30px;
+    background-color: #cecece;
 }
 
-.faculty{
-    width: 100%;
+.satya{
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.ds-btn{
+    padding: 20px;
+    color: white;
+    background-color: #323232;
+    border: 2px solid black;
+    font-weight: 700;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.ds-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.ds-faculty{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-}
-
-.faculty > h1{
-   font-size: 40px;
-   color: black;
 }
