@@ -192,9 +192,7 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/events.html">Events</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/alumni.html">Alumni Interactions</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/acm.html">ACM Student Chapter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/guestsession.html">Guest Session</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/Industrial_visit.html">Industrial Visit</a>
