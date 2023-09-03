@@ -177,36 +177,54 @@
     }
   }
   
-/* Stuff Alston added */
 
-/* 
-li:hover > ul {
-    display: block;
-    position: absolute;
-}
-li:hover li { 
-    float: none; 
-}
-li:hover a { 
-    background: #d3fce4; 
-}
-li:hover li a:hover { 
-    background: #2c3e50; 
-}
-.main-navigation li ul li { 
-    border-top: 0; 
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+svg{
+    width: 30px;
+    height: 10px;
 }
 
-ul ul ul {
-    left: 100%;
-    top: 0;
+.svg-txt{
+    font-size: 13px;
+    border: 3px solid red;
+    padding: 5px;
 }
 
-ul:before,
-ul:after {
-    content: " "; 
-    display: table;
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 2px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
 }
-ul:after { 
-    clear: both; 
-} */
+
+.text-copy:nth-child(1){
+  stroke: #4D163D;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #840037;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #BD0034;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #BD0034;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: #FDB731;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}

@@ -177,7 +177,24 @@ nav.innerHTML = `<div class="container-fluid">
               <div class="offcanvas-body">
               <ul class="navbar-nav  flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
-                  <a class="nav-link" href="/datascience.html">DATA SCIENCE</a>
+                  <div style="width:100%;display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;align-items:center;">
+                     <a class="nav-link" href="/datascience.html">DATA SCIENCE</a>
+                     <svg>
+                     <symbol id="s-text">
+                       <text text-anchor="middle" x="50%" y="80%" class="svg-txt">NEW </text>
+                       <!-- <text text-anchor="middle" x="52%" y="80%">NEW </text> -->
+                       
+                     </symbol>
+                   
+                     <g class = "g-ants">
+                       <use xlink:href="#s-text" class="text-copy"></use>
+                       <use xlink:href="#s-text" class="text-copy"></use>
+                       <use xlink:href="#s-text" class="text-copy"></use>
+                       <use xlink:href="#s-text" class="text-copy"></use>
+                       <use xlink:href="#s-text" class="text-copy"></use>
+                     </g>
+                   </svg>
+                  </div>
                 </li>
                 </div>
               <li class="nav-item dropdown text-center">
