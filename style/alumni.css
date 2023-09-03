@@ -1,6 +1,6 @@
 .box {
   width: 900px;
-  height: 900px;
+  height: 950px;
   background-color: aliceblue;
   padding: 50px;
   margin: auto;
@@ -9,8 +9,9 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 80px;
+  column-gap: 100px;
   row-gap: 20px;
+  padding: 20px;
 }
 .grid-item {
   width: 300px;
