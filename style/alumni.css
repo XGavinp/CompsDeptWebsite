@@ -1,0 +1,37 @@
+.box {
+  width: 900px;
+  height: 950px;
+  background-color: aliceblue;
+  padding: 50px;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  row-gap: 20px;
+  padding: 20px;
+}
+.grid-item {
+  width: 300px;
+}
+
+@media only screen and (max-width: 750px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+  .grid-item {
+    width: 300px;
+    padding-left: 30pxs;
+  }
+  .box {
+    width: 100vw;
+    height: fit-content;
+  }
+  #title {
+    margin-left: 50%;
+  }
+}
