@@ -1,6 +1,4 @@
-
-let nav = document.getElementById('navbar');
-
+let nav = document.getElementById("navbar");
 
 nav.innerHTML = `<div class="container-fluid">
       <div class="row">
@@ -164,10 +162,10 @@ nav.innerHTML = `<div class="container-fluid">
                 <ul class="dropdown-menu-undergraduate" aria-labelledby="navbarDropdown" style="left:206px; top:0%;">
                   <li>
                     
-                    <a class="dropdown-item" href="/uni/secyr.html">Second Year Projects</a>
+                    <a class="dropdown-item" href="/uni/secyr.html">Second Year Papers</a>
                   </li>
-                  <li><a class="dropdown-item" href="/uni/thirdyr.html">Third Year Projects</a></li>
-                  <li><a class="dropdown-item" href="/uni/fourthyr.html">Fourth Year Projects</a></li>
+                  <li><a class="dropdown-item" href="/uni/thirdyr.html">Third Year Papers</a></li>
+                  <li><a class="dropdown-item" href="/uni/fourthyr.html">Fourth Year Papers</a></li>
                 </ul>
               </li>
                   
@@ -268,4 +266,4 @@ nav.innerHTML = `<div class="container-fluid">
           </div>
         </div>
       </nav>
-    </header>`
+    </header>`;
