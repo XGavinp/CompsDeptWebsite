@@ -32,5 +32,59 @@
   .exercise-card {
     width: 280px;
   }
+<<<<<<< HEAD
 }
 
+=======
+  
+  /* Style the member cards */
+  .col-md-4 {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Add a hover effect to the member cards */
+  .col-md-4:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style the member images */
+  .img-fluid {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  /* Style member names */
+  h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Style member descriptions */
+  p {
+    color: #777;
+  }
+  
+  /* Add spacing between the rows */
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  /* Center the columns in smaller screens */
+  @media (max-width: 768px) {
+    .col-md-4 {
+      text-align: center;
+    }
+  }
+
+  /* Add a hover effect to the member cards */
+.member-card:hover {
+  transform: scale(1.05);
+  /* Add other hover styles as needed */
+}
+  
+>>>>>>> 21cdb81ba917f70f0c990a45bd4744634632118a
