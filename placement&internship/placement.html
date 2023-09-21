@@ -20,9 +20,48 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Placement Record</title>
     <script src="/temp.js" defer></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+         ['Placements', 'Intake'],
+          ['Zeus Learning', 3],
+          ['LTI',     3],
+          ['Evosys',      7],
+          ['Adrosonic',  2],
+          ['Link group', 11],
+          ['Reliance Jio',    10],
+          ['Capgemini',    3],
+          ['Hexaware',    1],
+          ['Ugam',    1],
+          ['Mindstix',    1],
+          ['TCS',    1],
+          ['LogiNext',1],
+          ['Square Yards',1],
+          ['Reliance Retail',1],
+          ['BillDesk',1],
+          ['NetCore',1],
+          ['NSEIT',1],
+          ['Wipro',2],
+          ['Course5Intellegence',1],
+          ['IDFC First Bank',1]
+      ]);
+
+      var options = {
+        title: 'Placements 2022-2023',
+        pieHole: 0.4,
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+      chart.draw(data, options);
+    }
+  </script>
   </head>
   <body class="bg-color">
     <div id="navbar"></div>
+    
     <main class="container-fluid">
       <div class="row justify-content-center">
         <div class="row my-3 mx-4 py-3 bg-light">
@@ -130,6 +169,7 @@
                 <div class="accordion-body">
                   <p>List of Computer Science Students 2021-2022 Batch</p>
                   <p>Placed through DBIT Placement Cell (As on 7<sup>th</sup> SEPTEMBER 2019)</p>
+                  <div id="donutchart" style="width: 900px; height: 500px;"></div>       
                   <table class="table">
                     <thead>
                       <tr>
