@@ -1,49 +1,36 @@
-/* Add some margin to the entire section for spacing */
-.container {
-    margin-top: 20px;
+
+.exercise-card {
+  width: 400px;
+  height: 480px;
+  background: #fff;
+  border-top: 4px solid #FF2625;
+  border-bottom: 4px solid #FF2625;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 30px;
+  margin:30px;
+}
+
+.exercise-card > img {
+  height: 326px;
+  margin:20px;
+}
+.team_socials{
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card {
+  width: 320px;
+}
+.team_socials:hover{
+  transform: scale(1.2, 1.2);
+}
+@media screen and (max-width:400px) {
+  .exercise-card {
+    width: 280px;
   }
-  
-  /* Style the member cards */
-  .col-md-4 {
-    text-align: center;
-    padding: 20px;
-    transition: transform 0.2s ease;
-  }
-  
-  /* Add a hover effect to the member cards */
-  .col-md-4:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Style the member images */
-  .img-fluid {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid #fff;
-  }
-  
-  /* Style member names */
-  h2 {
-    margin-top: 10px;
-    font-size: 1.5rem;
-    color: #333;
-  }
-  
-  /* Style member descriptions */
-  p {
-    color: #777;
-  }
-  
-  /* Add spacing between the rows */
-  .row {
-    margin-bottom: 20px;
-  }
-  
-  /* Center the columns in smaller screens */
-  @media (max-width: 768px) {
-    .col-md-4 {
-      text-align: center;
-    }
-  }
-  
+}
+
