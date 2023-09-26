@@ -20,49 +20,6 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Placement Record</title>
     <script src="/temp.js" defer></script>
-    <script
-      type="text/javascript"
-      src="https://www.gstatic.com/charts/loader.js"
-    ></script>
-    <script type="text/javascript">
-      google.charts.load("current", { packages: ["corechart"] });
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ["Placements", "Intake"],
-          ["Zeus Learning", 3],
-          ["LTI", 3],
-          ["Evosys", 7],
-          ["Adrosonic", 2],
-          ["Link group", 11],
-          ["Reliance Jio", 10],
-          ["Capgemini", 3],
-          ["Hexaware", 1],
-          ["Ugam", 1],
-          ["Mindstix", 1],
-          ["TCS", 1],
-          ["LogiNext", 1],
-          ["Square Yards", 1],
-          ["Reliance Retail", 1],
-          ["BillDesk", 1],
-          ["NetCore", 1],
-          ["NSEIT", 1],
-          ["Wipro", 2],
-          ["Course5Intellegence", 1],
-          ["IDFC First Bank", 1],
-        ]);
-
-        var options = {
-          title: "Placements 2022-2023",
-          pieHole: 0.4,
-        };
-
-        var chart = new google.visualization.PieChart(
-          document.getElementById("donutchart")
-        );
-        chart.draw(data, options);
-      }
-    </script>
   </head>
   <body class="bg-color">
     <div id="navbar"></div>
@@ -96,29 +53,99 @@
                 data-bs-slide-to="2"
                 aria-label="Slide 3"
               ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="7"
+                aria-label="Slide 8"
+              ></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="../assets/slideshow/pic1.jpg"
+                  src="..\images\placement\Placements(2022-2023)3.png"
                   class="d-block w-100"
-                  style="object-fit: cover; height: 400px"
+                  style="object-fit: contain; height: 400px"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/slideshow/pic2.jpg"
+                  src="..\images\placement\Placements(2022-2023)2.png"
                   class="d-block w-100"
-                  style="object-fit: cover; height: 400px"
+                  style="object-fit: contain; height: 400px"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/slideshow/pic3.jpg"
+                  src="..\images\placement\Placements(2022-2023)1.png"
                   class="d-block w-100"
-                  style="object-fit: cover; height: 400px"
+                  style="object-fit: contain; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="..\images\placement\Placements(2022-2023)g.png"
+                  class="d-block w-100"
+                  style="object-fit: contain; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="..\images\placement\Placements(2021-2022)g.png"
+                  class="d-block w-100"
+                  style="object-fit: contain; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="..\images\placement\Placements(2020-2021)g.png"
+                  class="d-block w-100"
+                  style="object-fit: contain; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="..\images\placement\Placements(2019-2020)g.jpg"
+                  class="d-block w-100"
+                  style="object-fit: contain; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="..\images\placement\Placements(2018-2019)g.png"
+                  class="d-block w-100"
+                  style="object-fit: contain; height: 400px"
                   alt="..."
                 />
               </div>
@@ -162,13 +189,102 @@
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Placement 2021-2022
+                  Placement 2022-2023
                 </button>
               </h2>
               <div
                 id="collapseOne"
                 class="accordion-collapse collapse"
                 aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>List of Computer Science Students 2022-2023 Batch</p>
+                  <!-- <p>
+                    Placed through DBIT Placement Cell (As on 7<sup>th</sup>
+                    SEPTEMBER 2019)
+                  </p> -->
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sr No.</th>
+                        <th scope="col">Name of Student</th>
+                        <th scope="col">Company Name</th>
+                        <!-- <th scope="col">Additional Offer</th>
+                        <th scope="col">Status</th> -->
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Shadab khan</td>
+                        <td>Arcon</td>
+                        <td></td>
+                        <td></td>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2.</td>
+                        <td>Bipin Giri</td>
+                        <td>Arcon</td>
+                        <td></td>
+                        <td></td>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3.</td>
+                        <td>Manish Shingre</td>
+                        <td>Arcon</td>
+                        <td></td>
+                        <td></td>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>4.</td>
+                        <td>Shrikrishna Umbare</td>
+                        <td>Sciative</td>
+                        <td></td>
+                        <td></td>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>5.</td>
+                        <td>Alston Fernandes</td>
+                        <td>Groorej Infotech</td>
+                        <td></td>
+                        <td></td>
+                        </td>
+                      </tr>
+                      </tbody>
+                      </table>
+                 </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+
+
+
+        <div class="row col-lg-20 p-3 m-">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  Placement 2021-2022
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
@@ -576,22 +692,22 @@
         <div class="row col-lg-20 p-3 m-">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTWo">
+              <h2 class="accordion-header" id="headingThree">
                 <button
                   class="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
+                  data-bs-target="#collapseThree"
                   aria-expanded="true"
-                  aria-controls="collapseTwo"
+                  aria-controls="collapseThree"
                 >
                   Placement 2020-2021
                 </button>
               </h2>
               <div
-                id="collapseTwo"
+                id="collapseThree"
                 class="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
+                aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
@@ -957,22 +1073,22 @@
         <div class="row col-lg-20 p-3 m-">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
+              <h2 class="accordion-header" id="headingFour">
                 <button
                   class="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
+                  data-bs-target="#collapseFour"
                   aria-expanded="true"
-                  aria-controls="collapseThree"
+                  aria-controls="collapseFour"
                 >
                   Placement 2019-2020
                 </button>
               </h2>
               <div
-                id="collapseThree"
+                id="collapseFour"
                 class="accordion-collapse collapse"
-                aria-labelledby="headingThree"
+                aria-labelledby="headingFour"
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
@@ -1352,22 +1468,22 @@
         <div class="row col-lg-20 p-3 m-">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
+              <h2 class="accordion-header" id="headingFive">
                 <button
                   class="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour"
+                  data-bs-target="#collapseFive"
                   aria-expanded="true"
-                  aria-controls="collapseFour"
+                  aria-controls="collapseFive"
                 >
                   Placement 2018-2019
                 </button>
               </h2>
               <div
-                id="collapseFour"
+                id="collapseFive"
                 class="accordion-collapse collapse"
-                aria-labelledby="headingFour"
+                aria-labelledby="headingFive"
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
