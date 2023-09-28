@@ -11,8 +11,3 @@
     color: red;
     
 }
-
-.footer-icon:hover{
-    /* transition: 3000; */
-    color: var(--primary_color);
-}
