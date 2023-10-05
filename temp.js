@@ -149,22 +149,8 @@ nav.innerHTML = `<div class="container-fluid">
                   </li>
                   <li><a class="dropdown-item" href="/students/recognition.html">Recognition</a></li>
                   <li class="nav-item dropdown text-center">
-                  <a
-                  class="nav-link dropdown-toggle "
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >
-                  University Question Papers
-                </a>
-                <ul class="dropdown-menu-undergraduate" aria-labelledby="navbarDropdown" style="left:206px; top:0%;">
-                  <li><a class="dropdown-item" href="/uni/secyr.html">Second Year Papers</a></li>
-                  <li><a class="dropdown-item" href="/uni/thirdyr.html">Third Year Papers</a></li>
-                  <li><a class="dropdown-item" href="/uni/fourthyr.html">Fourth Year Papers</a></li>
-                </ul>
-              </li>
+                  <li><a class="dropdown-item" href="http://opac.dbit.in/">University Question Papers</a></li>
+                  <li class="nav-item dropdown text-center">
                   
               </li>
                 </ul>
