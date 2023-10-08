@@ -159,22 +159,8 @@ nav.innerHTML = `<div class="container-fluid">
               <ul class="navbar-nav  flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
                   <div style="width:100%;display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;align-items:center;">
-                     <a class="nav-link" href="/datascience.html">DATA SCIENCE</a>
-                     <svg>
-                     <symbol id="s-text">
-                       <text text-anchor="middle" x="50%" y="80%" class="svg-txt">NEW </text>
-                       <!-- <text text-anchor="middle" x="52%" y="80%">NEW </text> -->
-                       
-                     </symbol>
-                   
-                     <g class = "g-ants">
-                       <use xlink:href="#s-text" class="text-copy"></use>
-                       <use xlink:href="#s-text" class="text-copy"></use>
-                       <use xlink:href="#s-text" class="text-copy"></use>
-                       <use xlink:href="#s-text" class="text-copy"></use>
-                       <use xlink:href="#s-text" class="text-copy"></use>
-                     </g>
-                   </svg>
+                     <a class="nav-link" href="/datascience.html">Honors & Minors</a>
+                     <p style="font-size:12px;font-weight:900;background-image: linear-gradient(to right, red, yellow);color:black;">NEW</p>
                   </div>
                 </li>
                 </div>
@@ -188,7 +174,7 @@ nav.innerHTML = `<div class="container-fluid">
                 >
                   CO-CURRICULAR ACTIVITIES
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu dropdown-cocurricular">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/alumni.html">Alumni Interactions</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/acm.html">ACM Student Chapter</a></li>
