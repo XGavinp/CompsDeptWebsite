@@ -228,3 +228,9 @@ svg{
 @keyframes stroke-offset{
   100% {stroke-dashoffset: -35%;}
 }
+
+
+.dropdown-cocurricular{
+    max-height: 270px;
+    overflow-y: scroll;
+}
