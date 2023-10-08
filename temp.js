@@ -180,8 +180,8 @@ nav.innerHTML = `<div class="container-fluid">
                 <li><a class="dropdown-item" href="/cocurricular/acm.html">ACM Student Chapter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/guestsession.html">Guest Session</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/Industrial_visit.html">Industrial Visit</a>
-                <li><a class="dropdown-item" href="/cocurricular/major_projects.html">Major Projects</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/certification.html">Innovex</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/major_projects.html">INNOVEX</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/certification.html">Certification/Workshop/Outreach Program</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/department_day.html">Department Day</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/programming.html">Programming Contest</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/other.html">Other</a></li>
