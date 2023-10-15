@@ -82,7 +82,7 @@
 
 .news-link-grp {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   height: 310px;
@@ -91,25 +91,23 @@
 @media (max-width: 500px) {
   .container-fluid {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 }
 
-
-.news-events{
-    height: 200px;
+.news-events {
+  height: 200px;
 }
 
-
-#hod-container{
-    height: 1100px;
+#hod-container {
+  height: 1100px;
 }
 
-@media (max-width:1000px){
-    #hod-container{
-        height: auto;
-    }
+@media (max-width: 1000px) {
+  #hod-container {
+    height: auto;
+  }
 }
 
 .badge {
@@ -120,17 +118,17 @@
   border-radius: 5px;
 }
 
-.Teknack{
+.Teknack {
   padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
 }
-.Advisory{
-  text-align: center; 
+.Advisory {
+  text-align: center;
   padding-top: 20px;
-
 }
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   height: 40px;
   width: 40px;
   outline: rgb(213, 46, 46);
