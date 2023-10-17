@@ -184,7 +184,7 @@ nav.innerHTML = `<div class="container-fluid">
                 <li><a class="dropdown-item" href="/cocurricular/certification.html">Certification/Workshop/Outreach Program</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/department_day.html">Department Day</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/programming.html">Programming Contest</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/other.html">Other</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/other.html">PTA</a></li>
                 </li>
                 </ul>
               </li>
