@@ -217,19 +217,10 @@ nav.innerHTML = `<div class="container-fluid">
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                TESTIMONIALS
-              </a>
-              <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/Testimonials/parents.html">Parents</a></li>
-              <li><a class="dropdown-item" href="/Testimonials/students.html">Students</a></li>
-              </ul>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="/Testimonials/students.html">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item dropdown text-center">
             </li>
             </ul>
           </div>
