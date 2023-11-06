@@ -184,7 +184,7 @@ nav.innerHTML = `<div class="container-fluid">
                 <li><a class="dropdown-item" href="/cocurricular/certification.html">Certification/Workshop/Outreach Program</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/department_day.html">Department Day</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/programming.html">Programming Contest</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/other.html">Other</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/other.html">PTA</a></li>
                 </li>
                 </ul>
               </li>
@@ -217,19 +217,10 @@ nav.innerHTML = `<div class="container-fluid">
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                TESTIMONIALS
-              </a>
-              <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/Testimonials/parents.html">Parents</a></li>
-              <li><a class="dropdown-item" href="/Testimonials/students.html">Students</a></li>
-              </ul>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="/Testimonials/students.html">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item dropdown text-center">
             </li>
             </ul>
           </div>
