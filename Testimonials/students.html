@@ -28,6 +28,12 @@
   />
   <script src="/temp.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    function toggleReadMore(link) {
+        var card = link.closest('.card');
+        card.classList.toggle('expanded');
+    }
+    </script>
 </head>
 <body class="bg-color">
   <div id="navbar"></div>
@@ -47,9 +53,14 @@
                   <div class="testimonial mt-4 mb-2">
                       Being a student of DBIT computer science department has been a life changing event. The skills and knowledge gained from
                       the multicultural environment and capable instructors gave me a solid foundation and skills to carry out my current
-                      responsibility. I have learned and grown beyond my expectations. I am forever grateful for every opportunity, experience
+                      responsibility.
+                       <!-- I have learned and grown beyond my expectations. I am forever grateful for every opportunity, experience
+                      and knowledge DBIT has provided me. -->
+                     <div class="read-more">
+                      <a href="#" class="read-more-link"onclick="toggleReadMore(this)">Read More</a>
+                     </div>
+                     I have learned and grown beyond my expectations. I am forever grateful for every opportunity, experience
                       and knowledge DBIT has provided me.
-  
                       <p><b>PASSOUT BATCH YEAR:</b> 2016</p>
                       <p><b>COMPANY NAME:</b> TCS</p>
                       <p><b>DESIGNATION:</b> LEAD DATA ANALYST</p>
@@ -67,8 +78,11 @@
                   </div>
                   <div class="testimonial mt-4 mb-2">
                       Don Bosco Institute of Technology provided me with an excellent education and guidance throughout my academic journey,
-                      which helped me develop the necessary skills and knowledge required for the job. I am ever grateful to the group of
-                      distinguished lecturers and HOD who guided & escorted me to strengthen my technical skills as well as my personality.
+                      which helped me develop the necessary skills and knowledge required for the job. 
+                      <div class="read-more">
+                        <a href="#" class="read-more-link"onclick="toggleReadMore(this)">Read More</a>
+                       </div>
+                      I am ever grateful to the group of distinguished lecturers and HOD who guided & escorted me to strengthen my technical skills as well as my personality.
                       The Computer department encouraged me to explore my talent & potential by providing an exceptional integrated learning
                       environment (through coding competitions, technical workshops, labs etc.). I also attribute my success in getting a job
                       to the education and support provided by the TPO and the placement cell team.
@@ -90,7 +104,11 @@
                   </div>
                   <div class="testimonial mt-4 mb-2">
                       Attending Don Bosco Institute of Technology was a rewarding experience for me. The Computer Engineering faculty is
-                      equally knowledgeable and supportive. The campus environment is always welcoming and I've gained valuable knowledge and
+                      equally knowledgeable and supportive. 
+                      <div class="read-more">
+                        <a href="#" class="read-more-link"onclick="toggleReadMore(this)">Read More</a>
+                       </div>
+                      The campus environment is always welcoming and I've gained valuable knowledge and
                       skills that I believe will serve me well in the future. I am grateful for all the opportunities that I've had here and
                       would recommend it to others looking for a quality education and finally I would like to thank all my Professors who
                       have guided and supported me in my academic journey.
@@ -113,7 +131,11 @@
                   <div class="testimonial mt-4 mb-2">
                   Don Bosco Institute of Technology was a great place to study. The college environment was peaceful and suitable for
                   learning. Besides studies, the college offered various cultural and student improvement activities, which helped me grow
-                  as a person. I made wonderful friends during my time there. The teachers were excellent, and they were always ready to
+                  as a person. 
+                  <div class="read-more">
+                    <a href="#" class="read-more-link"onclick="toggleReadMore(this)">Read More</a>
+                   </div>
+                  I made wonderful friends during my time there. The teachers were excellent, and they were always ready to
                   help and guide us. The college focused on making students successful and provided a friendly atmosphere for learning. In
                   short, my experience at Don Bosco Institute of Technology was a mix of good academics, fun activities, great friends,
                   and supportive teachers. It was a memorable part of my education journey.
@@ -136,7 +158,12 @@
                   </div>
                   <div class="testimonial mt-4 mb-2">
                       When it comes to DBIT, DUCS and CRAVE were invaluable in introducing me to a lot of concepts, so you too should actively
-                      be involved an activities of your respective college organizations. The tremendous exposure thus gained is sure to widen
+                      be involved an activities of your respective college organizations.<div class="read-more">
+                        <a href="#" class="read-more-link"onclick="toggleReadMore(this)">Read More</a>
+                       </div>
+                      
+                       
+                      The tremendous exposure thus gained is sure to widen
                       your view and make you more capable, as an entrepreneur.
   
                       <p><b>PASSOUT BATCH YEAR:</b> 2005</p>
