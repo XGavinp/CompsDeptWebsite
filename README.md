@@ -1,6 +1,6 @@
 # CompsDeptWebsite
 
-This is the Official  Github Repository for Computer Department  Website
+This is the Official  Github Repository for Computer Department  Website at DBIT
 
 College - Don Bosco Institute of Technology https://comps.dbit.in/
 
