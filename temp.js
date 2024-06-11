@@ -177,6 +177,8 @@ nav.innerHTML = `<div class="container-fluid">
                 <ul class="dropdown-menu dropdown-cocurricular">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/alumni.html">Alumni Interactions</a></li>
+                <li><a class="dropdown-item" href="https://dbit.acm.org/" target="_blank">ACM DBIT</a></li>
+                <li><a class="dropdown-item" href="https://teknack.in/" target="_blank">Tecknack</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/acm.html">ACM Student Chapter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/guestsession.html">Guest Session</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/Industrial_visit.html">Industrial Visit</a>
