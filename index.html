@@ -26,6 +26,21 @@
     crossorigin="anonymous" defer ></script>
   <script src="nav.js" defer></script>
   <script src="temp.js" defer></script>
+
+  <style>
+    .custom-video {
+      width: 400px; /* Limit width to 400px */
+      height: 300px; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 1500px) {
+      .custom-video {
+          width: 100%; /* Allow video to be full width on smaller screens */
+      }
+  }
+  
+  </style>
+  
   </head>
   <body class="bg-color">
     <div id = "navbar"></div>
@@ -162,15 +177,55 @@
         <div class="col-md-4 p-0 justify-content-center">
           <div class="container sticky-top py-3" style="z-index: 0; display:flex; align-items:center; justify-content:center; flex-direction:column;"> 
 
-            <video style="width: 100%; display:flex; align-items:center; justify-content:center; margin-bottom:10px;" controls>
-              <source src="./videos/7_Video_Comps_Department_Publicity-Admission-2024.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
+            
         
-            <video style="height: 300px; width: 100%; display:flex; align-items:center; justify-content:center; margin-bottom:10px;" controls>
-              <source src="./videos/SE_comps_student_Shreeya_parent.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
+          
+
+
+
+
+
+
+            <div id="carouselExampleIndicators2" class="carousel slide justify-content-center" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <video style="width: 70%; height: 300px; margin-left:15%; display: flex; align-items: center; justify-content: center; margin-bottom: 10px;" controls>
+                          <source src="./videos/7_Video_Comps_Department_Publicity-Admission-2024.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video>
+                  </div>
+                  <div class="carousel-item">
+                    <video class="custom-video" controls>
+                        <source src="./videos/SE_comps_student_Shreeya_parent.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+          
+          
+          <!-- Bootstrap Bundle with Popper -->
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+          
+
+
+
+
+
 
             <div
               class="row border rounded bg-light mx-3  justify-content-center" id="news-events"
