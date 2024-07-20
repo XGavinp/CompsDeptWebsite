@@ -88,6 +88,7 @@ nav.innerHTML = `<div class="container-fluid">
                     <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
                   <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
+                  <li><a class="dropdown-item" href="/academics/class-timetable.html">Class Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/academic_syllabus.html">Syllabus</a></li>
                   <li><a class="dropdown-item" href="/academics/rankholders.html">Rank Holders</a></li>
                   <li><a class="dropdown-item" href="/academics/Co-operator_Adivsory.html">Co-operate Advisory Board</a></li>
