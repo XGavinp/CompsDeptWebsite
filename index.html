@@ -26,6 +26,23 @@
     crossorigin="anonymous" defer ></script>
   <script src="nav.js" defer></script>
   <script src="temp.js" defer></script>
+
+  <style>
+    .custom-video {
+      width: 300px; /* Limit width to 400px */
+      padding-left: 50px;
+      padding-right: 50px;
+      height: 300px; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 1500px) {
+      .custom-video {
+          width: 100%; /* Allow video to be full width on smaller screens */
+      }
+  }
+  
+  </style>
+  
   </head>
   <body class="bg-color">
     <div id = "navbar"></div>
@@ -59,11 +76,45 @@
                   data-bs-slide-to="2"
                   aria-label="Slide 3"
                 ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./assets/slideshow/alumni.jpeg"
+                    src="./images/placement/Computer Engineering.jpeg"
+                    class="d-block w-100"
+                    style="object-fit: contain; height: 400px"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                  src="./assets/slideshow/General standee.png"
+                    class="d-block w-100"
+                    style="object-fit: contain; height: 400px"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                  src="./assets/slideshow/Shrikrishna standee.png"
                     class="d-block w-100"
                     style="object-fit: contain; height: 400px"
                     alt="..."
@@ -80,6 +131,14 @@
                 <div class="carousel-item">
                   <img
                   src="./assets/slideshow/pic3.jpg"
+                    class="d-block w-100"
+                    style="object-fit: contain; height: 400px"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                  src="./assets/slideshow/Leona standee.png"
                     class="d-block w-100"
                     style="object-fit: contain; height: 400px"
                     alt="..."
@@ -160,7 +219,62 @@
         </div>
 
         <div class="col-md-4 p-0 justify-content-center">
-          <div class="container sticky-top py-3" style="z-index: 0">
+          <div class="container sticky-top py-3" style="z-index: 0; display:flex; align-items:center; justify-content:center; flex-direction:column;"> 
+ 
+
+
+
+
+
+
+            <div id="carouselExampleIndicators2" class="carousel slide justify-content-center" data-bs-ride="carousel" data-bs-interval="45000">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <video style="width: 70%; height: 300px; margin-left:15%; display: flex; align-items: center; justify-content: center; margin-bottom: 10px;" controls>
+                          <source src="./videos/7_Video_Comps_Department_Publicity-Admission-2024.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video>
+                  </div>
+                  <div class="carousel-item">
+                    <video class="custom-video" controls>
+                        <source src="./videos/SE_comps_student_Shreeya_parent.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="carousel-item">
+                    <video class="custom-video" controls>
+                        <source src="./videos/BE comps student_Smrithi_ parent.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+          
+          
+          <!-- Bootstrap Bundle with Popper -->
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+          
+
+
+
+
+
+
             <div
               class="row border rounded bg-light mx-3  justify-content-center" id="news-events"
             >
@@ -168,30 +282,26 @@
               <div class="scroll-container mb-5">
                 <div class="scroll-text text-center news-link-grp">
           
-                      <a class="news-links" class="selectLink" href="images\News & Events\Teachers Day.jpeg" target="_blank"><span class="selectName">Teacher's Day Celebration held on 05th September 2023</span></a>
-                      <a class="news-links" class="selectLink" href="www.joomlatema.net" target="_blank"><span class="selectName">Computer Dept Day 2022 held on 27th Sept 2022</span></a>
-                      <a class="news-links" class="selectLink" href="images/2021/WhatsApp_Image_2021-10-28_at_110018_AM.jpeg" target="_blank"><span class="selectName">Webinar on  "Computer Engineering: Global Career Trends"</span></a>
-                      <a class="news-links" class="selectLink" href="images/2020/mh2020final-min.jpg" target="_blank"><span class="selectName">ACM DBIT wins ACM Mumbai Hackathon 2020 conducted at MHSSCOE</span></a>
-                      <a class="news-links" class="selectLink" href="https://comps.dbit.in/index.php/examination/rank-holders/external" target="_blank"><span class="selectName">Congratulations on your well-deserved success in MU examination</span></a>
-                      <a class="news-links" class="selectLink" href="" target="_blank"><span class="selectName">Parents Teacher Meet held on 25th Oct 2021.</span><a>
-                      <a class="news-links" class="selectLink" href="images/2020/amiya_sir.jpg" target="_blank"><span class="selectName">Dr. Amiya Kumar Tripathy honored with Dr . APJ Abdul Kalam National Award In The Field Of Teaching &amp; Research</span></a>
-                      <a class="news-links" class="selectLink" href="#" target="_blank"><span class="selectName">IA 1 is held on 21st August 2023</span></a>
-                      <a class="news-links" class="selectLink" href="#" target="_blank"><span class="selectName">IA 2 is held on 20th October 2023</span></a>
+                      <p class="news-links" class="selectLink"><span class="selectName">Parents Teacher Meeting held on 31st August 2024</span></p>
+                      <p class="news-links" class="selectLink"><span class="selectName">IA-1 held on 19th August 2024</span></p>
+                      <p class="news-links" class="selectLink"><span class="selectName">Congratulations on your well-deserved success in MU examination</span></p>
+                      <p class="news-links" class="selectLink"><span class="selectName">NAAC peer team visit on 15th August 2024</span></p>
+                      <p class="news-links" class="selectLink"><span class="selectName">Term Begins 08th July 2024</span></p>
+                      
 
                   </div>
               </div>
             </div>
             <div
               class="row border rounded bg-light mt-3 mx-3 justify-content-center"
-              style="height: auto"
+              style="height: auto;  width: -webkit-fill-available;"
             >
             
-            <h3 class="py-3 text-center">Flagship Events</h3>
+            <h3 class="py-3 text-center" style="height: auto; ">Flagship Events</h3>
             <div class="scroll-container mb-5">
               <div class="scroll-text text-center">
                 <a href="" target="" class="nav-link">ACM Teknack</a>
                   <a href="" class="nav-link">Department Day </a>
-                
               </div>
             </div>
           
@@ -359,6 +469,17 @@
                             target="_blank"
                             ><span class="selectName"
                               >Vol. 1 Issue 12, July 2023</span
+                            ></a
+                          >
+                        </li>
+
+                        <li class="selectItem">
+                          <a
+                            class="selectLink"
+                            href="https://drive.google.com/file/d/1VBYcHLOihQxbCoYucP1n5sm8rAuvO7SI/view?usp=sharing"
+                            target="_blank"
+                            ><span class="selectName"
+                              >Vol. 1 Issue 13, January 2024</span
                             ></a
                           >
                         </li>

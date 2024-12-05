@@ -88,6 +88,7 @@ nav.innerHTML = `<div class="container-fluid">
                     <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
                   <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
+                  <li><a class="dropdown-item" href="/academics/class-timetable.html">Class Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/academic_syllabus.html">Syllabus</a></li>
                   <li><a class="dropdown-item" href="/academics/rankholders.html">Rank Holders</a></li>
                   <li><a class="dropdown-item" href="/academics/Co-operator_Adivsory.html">Co-operate Advisory Board</a></li>
@@ -177,6 +178,8 @@ nav.innerHTML = `<div class="container-fluid">
                 <ul class="dropdown-menu dropdown-cocurricular">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/alumni.html">Alumni Interactions</a></li>
+                <li><a class="dropdown-item" href="https://dbit.acm.org/" target="_blank">ACM DBIT</a></li>
+                <li><a class="dropdown-item" href="https://teknack.in/" target="_blank">Tecknack</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/acm.html">ACM Student Chapter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/guestsession.html">Guest Session</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/Industrial_visit.html">Industrial Visit</a>
