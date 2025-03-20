@@ -43,6 +43,7 @@ nav.innerHTML = `<div class="container-fluid">
       <nav
         class="navbar navbar-expand-xl container-fluid justify-content-between"
       >
+        <span class="navbar-brand mb-0 h1 ms-3">COMPS DBIT</span>
           <button
           class="navbar-toggler me-2"
           type="button"
