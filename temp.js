@@ -128,44 +128,49 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li class="nav-item dropdown text-center">
-                  <a
-                  class="nav-link dropdown-toggle "
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >
-                  Under Graduate Projects
-                </a>
-                <ul class="dropdown-menu-undergraduate" aria-labelledby="navbarDropdown" style="left:206px; top:0%;">
-                  <li>
-                    
-                    <a class="dropdown-item" href="/students/secondyear.html">Second Year Projects</a>
-                  </li>
-                  <li><a class="dropdown-item" href="/students/thirdyear.html">Third Year Projects</a></li>
-                  <li><a class="dropdown-item" href="/students/fourthyear.html">Fourth Year Projects</a></li>
-                </ul>
-              </li>
-            
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="ugProjectsDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Under Graduate Projects
+                    </a>
+                    <ul class="dropdown-menu-undergraduate" aria-labelledby="ugProjectsDropdown" style="left:206px; top:0%;">
+                      <li><a class="dropdown-item" href="/students/secondyear.html">Second Year Projects</a></li>
+                      <li><a class="dropdown-item" href="/students/thirdyear.html">Third Year Projects</a></li>
+                      <li><a class="dropdown-item" href="/students/fourthyear.html">Fourth Year Projects</a></li>
+                    </ul>
                   </li>
                   <li><a class="dropdown-item" href="/students/recognition.html">Recognition</a></li>
-                  <li class="nav-item dropdown text-center">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="programsDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Programs
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="programsDropdown">
+                      <li><a class="dropdown-item" href="/students/SE.html">SE</a></li>
+                      <li><a class="dropdown-item" href="/students/TE.html">TE</a></li>
+                      <li><a class="dropdown-item" href="/students/BE.html">BE</a></li>
+                    </ul>
+                  </li>
                   <li><a class="dropdown-item" href="http://opac.dbit.in/">University Question Papers</a></li>
-                  <li class="nav-item dropdown text-center">
-                  
-              </li>
                 </ul>
               </li>
-              <div class="offcanvas-body">
-              <ul class="navbar-nav  flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
                   <div style="width:100%;display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;align-items:center;">
                      <a class="nav-link" href="/datascience.html">Honors & Minors</a>
                      <p style="font-size:12px;font-weight:900;background-image: linear-gradient(to right, red, yellow);color:black;">NEW</p>
                   </div>
-                </li>
-                </div>
+              </li>
               <li class="nav-item dropdown text-center">
                 <a
                   class="nav-link dropdown-toggle"
@@ -189,7 +194,6 @@ nav.innerHTML = `<div class="container-fluid">
                 <li><a class="dropdown-item" href="/cocurricular/department_day.html">Department Day</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/programming.html">Programming Contest</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/other.html">PTA</a></li>
-                </li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -220,12 +224,9 @@ nav.innerHTML = `<div class="container-fluid">
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown text-center">
               <li class="nav-item text-center">
                 <a class="nav-link" href="/Testimonials/students.html">TESTIMONIALS</a>
               </li>
-              <li class="nav-item dropdown text-center">
-            </li>
             </ul>
           </div>
         </div>
